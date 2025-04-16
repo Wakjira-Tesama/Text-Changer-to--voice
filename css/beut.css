@@ -16,3 +16,18 @@ body {
   align-items: center;
   flex-direction: column;
 }
+span {
+  color: aquamarine;
+}
+textarea {
+  width: 400px;
+  height: 200px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(107, 148, 54);
+
+  color: black;
+  padding-left: 10px;
+  resize: none;
+}
