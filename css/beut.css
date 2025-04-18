@@ -31,3 +31,42 @@ textarea {
   padding-left: 10px;
   resize: none;
 }
+.toucher {
+  margin-top: 10px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+select {
+  flex: 1;
+  height: 30px;
+  width: 60%;
+  margin-right: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(148, 120, 174);
+  padding: 10px;
+  cursor: pointer;
+  appearance: none;
+}
+button {
+  /* width: 80px; */
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+}
+button img {
+  width: 15px;
+  margin-top: 4px;
+}
+
+textarea ::placeholder {
+  font-size: 15px;
+  color: rgb(235, 255, 196);
+  padding-left: 10px;
+}
