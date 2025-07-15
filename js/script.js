@@ -10,3 +10,8 @@ function loadVoices() {
     option.text = `${voice.name} (${voice.lang})`;
     voiceList.appendChild(option);
   });
+  // Set default voice
+  if (voices.length > 0) {
+    speech.voice = voices[0];
+  }
+}
